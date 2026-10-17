@@ -1,0 +1,88 @@
+TAP version 13
+# Subtest: empty and single-day histories do not invent a comparison
+ok 1 - empty and single-day histories do not invent a comparison
+  ---
+  duration_ms: 0.859821
+  type: 'test'
+  ...
+# Subtest: date order and decimal subtraction produce a signed exact difference
+ok 2 - date order and decimal subtraction produce a signed exact difference
+  ---
+  duration_ms: 7.712429
+  type: 'test'
+  ...
+# Subtest: gap is not labelled yesterday and different units are rejected
+ok 3 - gap is not labelled yesterday and different units are rejected
+  ---
+  duration_ms: 0.337146
+  type: 'test'
+  ...
+# Subtest: T04-TIMEOUT: expected failure, last-good preservation and recovery
+ok 4 - T04-TIMEOUT: expected failure, last-good preservation and recovery
+  ---
+  duration_ms: 20.238764
+  type: 'test'
+  ...
+# Subtest: T04-AUTH-401: expected failure, last-good preservation and recovery
+ok 5 - T04-AUTH-401: expected failure, last-good preservation and recovery
+  ---
+  duration_ms: 1.347866
+  type: 'test'
+  ...
+# Subtest: T04-RATE-429: expected failure, last-good preservation and recovery
+ok 6 - T04-RATE-429: expected failure, last-good preservation and recovery
+  ---
+  duration_ms: 3.38078
+  type: 'test'
+  ...
+# Subtest: T04-OFFLINE: expected failure, last-good preservation and recovery
+ok 7 - T04-OFFLINE: expected failure, last-good preservation and recovery
+  ---
+  duration_ms: 1.009957
+  type: 'test'
+  ...
+# Subtest: T04-SCHEMA-BREAK: expected failure, last-good preservation and recovery
+ok 8 - T04-SCHEMA-BREAK: expected failure, last-good preservation and recovery
+  ---
+  duration_ms: 1.518705
+  type: 'test'
+  ...
+# Subtest: same day upserts keep record ID across three successes; next day adds one
+ok 9 - same day upserts keep record ID across three successes; next day adds one
+  ---
+  duration_ms: 0.890538
+  type: 'test'
+  ...
+# Subtest: all fixture inputs match the reference transition
+ok 10 - all fixture inputs match the reference transition
+  ---
+  duration_ms: 4.995076
+  type: 'test'
+  ...
+# Subtest: all 17 asset hashes and bundled fixture copies match verified bytes
+ok 11 - all 17 asset hashes and bundled fixture copies match verified bytes
+  ---
+  duration_ms: 6.484496
+  type: 'test'
+  ...
+# Subtest: KST date switches at UTC 15:00 and rejects a wrong record_date
+ok 12 - KST date switches at UTC 15:00 and rejects a wrong record_date
+  ---
+  duration_ms: 0.923965
+  type: 'test'
+  ...
+# Subtest: synthetic reset/replay has no real API or D1 write path
+ok 13 - synthetic reset/replay has no real API or D1 write path
+  ---
+  duration_ms: 1.029762
+  type: 'test'
+  ...
+1..13
+# tests 13
+# suites 0
+# pass 13
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 192.14701

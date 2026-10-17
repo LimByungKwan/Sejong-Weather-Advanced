@@ -1,0 +1,103 @@
+TAP version 13
+# Subtest: T05-01
+ok 1 - T05-01
+  ---
+  duration_ms: 2.129788
+  type: 'test'
+  ...
+# Subtest: T05-02
+ok 2 - T05-02
+  ---
+  duration_ms: 0.526912
+  type: 'test'
+  ...
+# Subtest: T05-03
+ok 3 - T05-03
+  ---
+  duration_ms: 0.112337
+  type: 'test'
+  ...
+# Subtest: T05-04
+not ok 4 - T05-04
+  ---
+  duration_ms: 2.547427
+  type: 'test'
+  location: '/home/claude/work-b/tests/t05-fixed.test.mjs:8:23'
+  failureType: 'testCodeFailure'
+  error: |-
+    추가 클릭 없이 30분 경계에서 구독자 갱신
+    + actual - expected
+    
+      {
+    +   label: '최신값',
+    +   state: 'fresh',
+    -   label: '오래된 값',
+    -   state: 'stale',
+        value: 21.6
+      }
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected:
+    state: 'stale'
+    label: '오래된 값'
+    value: 21.6
+  actual:
+    state: 'fresh'
+    label: '최신값'
+    value: 21.6
+  operator: 'deepStrictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///home/claude/work-b/tests/t05-fixed.test.mjs:24:11)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: T05-05
+ok 5 - T05-05
+  ---
+  duration_ms: 0.151176
+  type: 'test'
+  ...
+# Subtest: T05-06
+ok 6 - T05-06
+  ---
+  duration_ms: 0.174605
+  type: 'test'
+  ...
+# Subtest: T05-07
+ok 7 - T05-07
+  ---
+  duration_ms: 0.097181
+  type: 'test'
+  ...
+# Subtest: T05-08
+ok 8 - T05-08
+  ---
+  duration_ms: 0.19444
+  type: 'test'
+  ...
+# Subtest: T05-09
+ok 9 - T05-09
+  ---
+  duration_ms: 0.31149
+  type: 'test'
+  ...
+# Subtest: T05-10
+ok 10 - T05-10
+  ---
+  duration_ms: 0.442922
+  type: 'test'
+  ...
+1..10
+# tests 10
+# suites 0
+# pass 9
+# fail 1
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 140.886521

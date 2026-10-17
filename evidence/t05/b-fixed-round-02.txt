@@ -1,0 +1,70 @@
+TAP version 13
+# Subtest: T05-01
+ok 1 - T05-01
+  ---
+  duration_ms: 1.564166
+  type: 'test'
+  ...
+# Subtest: T05-02
+ok 2 - T05-02
+  ---
+  duration_ms: 0.267199
+  type: 'test'
+  ...
+# Subtest: T05-03
+ok 3 - T05-03
+  ---
+  duration_ms: 0.143448
+  type: 'test'
+  ...
+# Subtest: T05-04
+ok 4 - T05-04
+  ---
+  duration_ms: 0.332545
+  type: 'test'
+  ...
+# Subtest: T05-05
+ok 5 - T05-05
+  ---
+  duration_ms: 0.178819
+  type: 'test'
+  ...
+# Subtest: T05-06
+ok 6 - T05-06
+  ---
+  duration_ms: 0.096582
+  type: 'test'
+  ...
+# Subtest: T05-07
+ok 7 - T05-07
+  ---
+  duration_ms: 0.1767
+  type: 'test'
+  ...
+# Subtest: T05-08
+ok 8 - T05-08
+  ---
+  duration_ms: 0.153309
+  type: 'test'
+  ...
+# Subtest: T05-09
+ok 9 - T05-09
+  ---
+  duration_ms: 0.267532
+  type: 'test'
+  ...
+# Subtest: T05-10
+ok 10 - T05-10
+  ---
+  duration_ms: 0.378193
+  type: 'test'
+  ...
+1..10
+# tests 10
+# suites 0
+# pass 10
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 82.579479
