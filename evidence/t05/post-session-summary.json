@@ -1,0 +1,48 @@
+{
+  "stage": "post-B verification; not included in A/B experimental usage",
+  "a": {
+    "start": "2026-10-17T17:46:28+09:00",
+    "end": "2026-10-17T17:51:13+09:00",
+    "elapsed_seconds": 285,
+    "user_requests": 1,
+    "fixed_rounds": 2,
+    "error_rounds": 2,
+    "pass": 9
+  },
+  "b": {
+    "start": "2026-10-17T19:21:00+09:00",
+    "end": "2026-10-17T19:26:00+09:00",
+    "precision": "minute; about five minutes",
+    "user_requests": 2,
+    "fixed_rounds": 3,
+    "error_rounds": 1,
+    "pass": 10
+  },
+  "local_user_verification": {
+    "fixed": {
+      "pass": 10,
+      "fail": 0
+    },
+    "freeze": "PASS after restoring identical LF bytes",
+    "typecheck": "exit 0, --incremental false",
+    "build": "Build complete",
+    "browser": [
+      "offline preserves last good",
+      "successful recovery",
+      "30-minute automatic stale display"
+    ]
+  },
+  "privacy_pattern_review": {
+    "credential_pattern_hits": 0,
+    "personal_mobile_hits": 0,
+    "personal_windows_path_hits": 0,
+    "email_hits": 1,
+    "email_review": "seedy@sites.test is bundled local mock account; no actual personal email found"
+  },
+  "pending": [
+    "final GitHub upload",
+    "incognito result and final-source URLs",
+    "clean-folder full app setup after documentation repair",
+    "hidden-tab boundary browser scenario"
+  ]
+}

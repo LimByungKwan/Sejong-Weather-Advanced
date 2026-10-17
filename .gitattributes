@@ -1,0 +1,3 @@
+docs/t05/PLAN.md text eol=lf
+docs/t05/fixed-tests.json text eol=lf
+tests/t05-fixed.test.mjs text eol=lf
