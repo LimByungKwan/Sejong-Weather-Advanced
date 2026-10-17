@@ -1,0 +1,13 @@
+{
+  "phase": "AI A start",
+  "source_commit": "b51d029dd87a7c541635edeedd241995b41c09a4",
+  "request_received_at": "2026-10-17T17:46:28+09:00",
+  "implementation_started_at": "2026-10-17T08:48:14.360507+00:00",
+  "user_requests": 1,
+  "planned_stop": "pure diagnosis plus subscription skeleton; clock scheduling and React connection left for B",
+  "model": "GPT; exact displayed version requires user confirmation",
+  "limits": {
+    "minutes": 30,
+    "user_requests": 10
+  }
+}
