@@ -1,0 +1,20 @@
+{
+  "source_commit": "c2655cd4bb67df26696b35021a5519b996b0c1e2",
+  "new_work_folder": true,
+  "node_version": "v24.19.0",
+  "frozen_hashes": "PASS",
+  "fixed_tests": {
+    "total": 10,
+    "pass": 9,
+    "fail": [
+      "T05-04"
+    ],
+    "exit_code": 1
+  },
+  "t04_regression": {
+    "total": 13,
+    "pass": 13,
+    "exit_code": 0
+  },
+  "scope": "Node commands only; dependency install, app build and browser not run"
+}

@@ -1,0 +1,21 @@
+✔ empty and single-day histories do not invent a comparison (0.709661ms)
+✔ date order and decimal subtraction produce a signed exact difference (6.196961ms)
+✔ gap is not labelled yesterday and different units are rejected (0.312052ms)
+✔ T04-TIMEOUT: expected failure, last-good preservation and recovery (16.919145ms)
+✔ T04-AUTH-401: expected failure, last-good preservation and recovery (0.984868ms)
+✔ T04-RATE-429: expected failure, last-good preservation and recovery (0.871491ms)
+✔ T04-OFFLINE: expected failure, last-good preservation and recovery (0.753376ms)
+✔ T04-SCHEMA-BREAK: expected failure, last-good preservation and recovery (2.317492ms)
+✔ same day upserts keep record ID across three successes; next day adds one (0.581421ms)
+✔ all fixture inputs match the reference transition (3.313879ms)
+✔ all 17 asset hashes and bundled fixture copies match verified bytes (2.188682ms)
+✔ KST date switches at UTC 15:00 and rejects a wrong record_date (0.645476ms)
+✔ synthetic reset/replay has no real API or D1 write path (0.687238ms)
+ℹ tests 13
+ℹ suites 0
+ℹ pass 13
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 118.949724

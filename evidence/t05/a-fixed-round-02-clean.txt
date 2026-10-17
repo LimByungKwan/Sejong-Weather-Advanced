@@ -1,0 +1,48 @@
+✔ T05-01 (1.581352ms)
+✔ T05-02 (0.155841ms)
+✔ T05-03 (0.125516ms)
+✖ T05-04 (1.342218ms)
+✔ T05-05 (0.294416ms)
+✔ T05-06 (0.155039ms)
+✔ T05-07 (0.158264ms)
+✔ T05-08 (0.125476ms)
+✔ T05-09 (0.125466ms)
+✔ T05-10 (0.228018ms)
+ℹ tests 10
+ℹ suites 0
+ℹ pass 9
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 93.466054
+
+✖ failing tests:
+
+test at t05-a-clean/tests/t05-fixed.test.mjs:8:23
+✖ T05-04 (1.342218ms)
+  AssertionError [ERR_ASSERTION]: 추가 클릭 없이 30분 경계에서 구독자 갱신
+  + actual - expected
+  
+    {
+  +   label: '최신값',
+  +   state: 'fresh',
+  -   label: '오래된 값',
+  -   state: 'stale',
+      value: 21.6
+    }
+  
+      at TestContext.<anonymous> (file:///workspace/scratch/3c8bdb46814b/t05-a-clean/tests/t05-fixed.test.mjs:24:11)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: { state: 'fresh', label: '최신값', value: 21.6 },
+    expected: { state: 'stale', label: '오래된 값', value: 21.6 },
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }

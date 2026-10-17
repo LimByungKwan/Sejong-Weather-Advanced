@@ -1,0 +1,15 @@
+{
+  "request_received_at": "2026-10-17T17:46:28+09:00",
+  "artifact_checkpoint_at": "2026-10-17T08:50:19.214320+00:00",
+  "elapsed_to_artifact_checkpoint_seconds": 231.214,
+  "user_requests": 1,
+  "fixed_test_rounds": 2,
+  "error_rounds": 2,
+  "final_pass": 9,
+  "total": 10,
+  "limit_minutes": 30,
+  "limit_requests": 10,
+  "end_time_status": "Artifact checkpoint measured; final handoff response display time must be confirmed by user before total elapsed is finalized.",
+  "browser": "NOT_RUN",
+  "build": "NOT_RUN"
+}
